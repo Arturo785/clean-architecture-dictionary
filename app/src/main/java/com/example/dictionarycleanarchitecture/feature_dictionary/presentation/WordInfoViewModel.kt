@@ -27,6 +27,7 @@ class WordInfoViewModel @Inject constructor(
     private val _searchQuery = mutableStateOf("")
     val searchQuery: State<String> = _searchQuery
 
+    // this handles how the screen is shown at the moment with which data
     private val _state = mutableStateOf(WordInfoState())
     val state: State<WordInfoState> = _state
 
